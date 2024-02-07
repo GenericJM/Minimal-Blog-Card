@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "sora";
+}
+
+body {
+  background-color: #FAFAF9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  min-width: 640px;
+}
+
+.card {
+  margin-top: 164px;
+  background-color: #FFFFFF;
+  width: fit-content;
+  padding-bottom: 20px;
+  /* padding: 16px 16px 20px 16px; */
+  max-width: 368px;
+  /* max-height: 246px; */
+  border-radius: 15px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+main {
+  max-width: 332px;
+  /* background-color: red; */
+  padding: 16px;
+
+}
+
+.card-image {
+  width: 100%;
+  height: 152px;
+  object-fit: contain;
+
+}
+
+.tag {
+  margin-top: 16px;
+  font-size: 10px;
+  margin-bottom: 16px;
+  background-color: #E6D6FC;
+  padding: 5px 16px;
+  border-radius: 20px;
+  width: fit-content;
+  color: #883AE1;
+}
+
+.title {
+  font-size: 18px;
+  color: #20293A;
+}
+
+.body {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #6C727F;
+  line-height: 20px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #E5EAF0;
+
+}
+
+footer {
+  margin-left: 16px;
+}
+
+.small-text {
+  font-size: 12px;
+
+  color: #6C727F;
+}
